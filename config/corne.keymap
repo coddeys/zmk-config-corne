@@ -90,7 +90,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp SQT    &kp N5        &kp NUMBER_6  &kp N7        &kp EQUAL        &trans     &trans           &trans     &trans         &trans         &trans
+&trans  &kp SQT    &kp N5        &kp NUMBER_6  &kp N7        &kp EQUAL        &trans     &kp EXCLAMATION  &kp CARET  &kp ASTERISK   &trans         &trans
 &trans  &kp MINUS  &kp N9        &kp N0        &kp NUMBER_1  &kp N8           &kp TILDE  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
 &trans  &kp GRAVE  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp BACKSLASH    &trans     &trans           &trans     &trans         &trans         &trans
                                  &trans        &trans        &kp SPACE        &kp RET    &trans           &trans
