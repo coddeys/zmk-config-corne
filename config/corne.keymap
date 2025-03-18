@@ -75,9 +75,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans     &kp AT_SIGN           &kp DOLLAR             &kp PERCENT      &trans       &kp DOUBLE_QUOTES  &kp DEL         &kp UP            &kp BACKSPACE      &kp PLUS         &kp BSPC
+&trans  &trans     &trans                &trans                 &kp PERCENT      &trans       &kp DOUBLE_QUOTES  &kp DEL         &kp UP            &kp BACKSPACE      &kp PLUS         &kp BSPC
 &trans  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp HASH     &kp SQT            &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT          &kp UNDERSCORE   &trans
-&trans  &trans     &trans                &trans                 &kp ASTERISK     &trans       &kp PIPE           &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
+&trans  &trans     &trans                &trans                 &trans           &trans       &kp PIPE           &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
                                          &trans                 &trans           &kp SPACE    &kp RET            &trans          &trans
             >;
         };
@@ -90,10 +90,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp SQT    &kp N5        &kp NUMBER_6  &kp N7        &kp EQUAL        &trans     &kp EXCLAMATION  &kp CARET  &kp ASTERISK   &trans         &trans
-&trans  &kp MINUS  &kp N9        &kp N0        &kp NUMBER_1  &kp N8           &kp TILDE  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
-&trans  &kp GRAVE  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp BACKSLASH    &trans     &trans           &trans     &trans         &trans         &trans
-                                 &trans        &trans        &kp SPACE        &kp RET    &trans           &trans
+&trans  &kp SQT    &kp N5        &kp NUMBER_6  &kp N7        &kp EQUAL        &trans         &trans        &trans       &trans      &trans     &trans
+&trans  &kp MINUS  &kp N9        &kp N0        &kp NUMBER_1  &kp N8           &kp AMPERSAND  &kp ASTERISK  &kp AT_SIGN  &kp DOLLAR  &kp TILDE  &trans
+&trans  &kp GRAVE  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp BACKSLASH    &trans         &trans        &trans       &trans      &trans     &trans
+                                 &trans        &trans        &kp SPACE        &kp RET        &trans        &trans
             >;
         };
 
