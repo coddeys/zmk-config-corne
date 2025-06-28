@@ -60,10 +60,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&sk LCTRL  &kp Q  &kp W  &kp F         &kp P      &kp B              &kp J            &kp L         &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&sk LALT   &kp A  &kp R  &kp S         &kp T      &kp G              &kp M            &kp N         &kp E      &kp I    &kp O          &tog 4
-&mo 3      &kp Z  &kp X  &kp C         &kp D      &kp V              &kp K            &kp H         &kp COMMA  &kp DOT  &kp SLASH      &mo 3
-                         &sk LEFT_GUI  &lt 1 TAB  &mt LSHFT SPACE    &mt RSHFT ENTER  &lt 2 ESCAPE  &sk RCTRL
+&sk LCTRL  &kp Q  &kp W           &kp F        &kp P        &kp B            &kp J            &kp L         &kp U          &kp Y            &kp SEMICOLON  &kp BSPC
+&sk LALT   &kp A  &mt LEFT_ALT R  &mt LCTRL S  &mt LGUI T   &kp G            &kp M            &mt RGUI N    &mt RCTRL E    &mt RIGHT_ALT I  &kp O          &tog 4
+&mo 3      &kp Z  &kp X           &kp C        &kp D        &kp V            &kp K            &kp H         &kp COMMA      &kp DOT          &kp SLASH      &mo 3
+                                  &sk F5       &lt 1 SPACE  &mt LSHFT TAB    &mt RSHFT ENTER  &lt 2 ESCAPE  &sk BACKSPACE
             >;
         };
 
@@ -75,10 +75,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans     &trans                &trans                 &kp PERCENT      &trans       &kp DOUBLE_QUOTES  &kp DEL         &kp UP            &kp BACKSPACE      &kp PLUS         &kp BSPC
-&trans  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp HASH     &kp SQT            &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT          &kp UNDERSCORE   &trans
-&trans  &trans     &trans                &trans                 &trans           &trans       &kp PIPE           &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
-                                         &trans                 &trans           &kp SPACE    &kp RET            &trans          &trans
+&trans  &trans     &trans                &trans                 &kp PERCENT      &trans      &kp DOUBLE_QUOTES  &kp DEL         &kp UP            &kp BACKSPACE      &kp PLUS         &trans
+&trans  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp HASH    &kp SQT            &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT          &kp UNDERSCORE   &trans
+&trans  &trans     &trans                &trans                 &trans           &trans      &kp PIPE           &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
+                                         &trans                 &trans           &trans      &kp RET            &kp DEL         &trans
             >;
         };
 
@@ -93,7 +93,7 @@
 &trans  &kp SQT    &kp N5        &kp NUMBER_6  &kp N7        &kp EQUAL        &trans         &trans        &trans       &trans      &trans     &trans
 &trans  &kp MINUS  &kp N9        &kp N0        &kp NUMBER_1  &kp N8           &kp AMPERSAND  &kp ASTERISK  &kp AT_SIGN  &kp DOLLAR  &kp TILDE  &trans
 &trans  &kp GRAVE  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp BACKSLASH    &trans         &trans        &trans       &trans      &trans     &trans
-                                 &trans        &trans        &kp SPACE        &kp RET        &trans        &trans
+                                 &trans        &kp SPACE     &kp TAB          &kp RET        &trans        &trans
             >;
         };
 
